@@ -29,8 +29,11 @@ const yScale = scaleLinear()
 ## Example output
 
 Here the GPS path (the domain) keeps its ratio while the ratio of the screen (the range) changes from landscape to portrait.
-![D3 graph with margins based on range ratio](/sample_landscape.png)
-![D3 graph with margins based on range ratio](/sample_portrait.png)
+
+<p align="center">
+  <img src="./sample_landscape.png" alt="D3 graph with margins based on range ratio"/>
+  <img src="./sample_portrait.png" alt="D3 graph with margins based on range ratio"/>
+</p>
 
 ## Notes
 
