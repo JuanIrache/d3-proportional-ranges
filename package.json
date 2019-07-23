@@ -1,0 +1,30 @@
+{
+  "name": "d3-proportional-ranges",
+  "version": "0.1.0",
+  "description": "Modifies data extents so that they scale without losing proportions. Useful for representing 2D data with the same units on both axis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanIrache/d3-proportional-ranges.git"
+  },
+  "keywords": [
+    "d3",
+    "2d",
+    "scale",
+    "gps",
+    "geo",
+    "graph",
+    "data",
+    "visualization",
+    "ratio"
+  ],
+  "author": "Juan Irache Duesca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanIrache/d3-proportional-ranges/issues"
+  },
+  "homepage": "https://github.com/JuanIrache/d3-proportional-ranges#readme"
+}
