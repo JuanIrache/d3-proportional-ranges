@@ -24,9 +24,11 @@ const xScale = scaleLinear()
 const yScale = scaleLinear()
   .domain(pathDomain.y)
   .range([innerHeight, 0]);
+
+//Returns a new object {x,y} with new extent values
 ```
 
-## Example output
+## Example use
 
 Here the GPS path (the domain) keeps its ratio while the ratio of the screen (the range) changes from landscape to portrait.
 
