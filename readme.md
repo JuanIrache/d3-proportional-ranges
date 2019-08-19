@@ -44,6 +44,10 @@ Here the GPS path (the domain) keeps its ratio while the ratio of the screen (th
 Please report any problem, as this has not been thoroughly tested and could be improved.
 This module works outside of D3. It was created for the [GoPro Telemetry Extractor](https://tailorandwayne.com/gopro-telemetry-extractor/#)
 
+## Contribution
+
+Please make your changes to the **dev** branch, so that automated tests can be run before merging to **master**. Also, if possible, provide tests for new functionality.
+
 ## More creative coding
 
 If you liked this you might like some of my [app prototyping](https://prototyping.barcelona).
