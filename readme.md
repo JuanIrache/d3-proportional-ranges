@@ -16,7 +16,12 @@ Within a D3 program, it could work like this:
 const proportionalRanges = require('d3-proportional-ranges');
 
 //Input 4 arrays with: extent of X domain, extent of Y domain, range of X output, range of Y output
-const pathDomain = proportionalRanges([0, 1000], [0, 500], [0, innerWidth], [0, innerHeight]);
+const pathDomain = proportionalRanges(
+  [0, 1000],
+  [0, 500],
+  [0, innerWidth],
+  [0, innerHeight]
+);
 
 const xScale = scaleLinear()
   .domain(pathDomain.x)
@@ -42,8 +47,8 @@ Here the GPS path (the domain) keeps its ratio while the ratio of the screen (th
 ## Notes
 
 Please report any problem, as this has not been thoroughly tested and could be improved.
-This module works outside of D3. It was created for the [GoPro Telemetry Extractor](https://tailorandwayne.com/gopro-telemetry-extractor/#)
+This module works outside of D3. It was created for the [GoPro Telemetry Extractor](https://goprotelemetryextractor.com)
 
 ## More creative coding
 
-If you liked this you might like other [creative coding projects](https://tailorandwayne.com/coding-projects/).
+If you liked this you might my [app prototyping](https://prototyping.barcelona).
