@@ -1,6 +1,6 @@
 {
   "name": "d3-proportional-ranges",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Modifies data extents so that they scale without losing proportions. Useful for representing 2D data with the same units on both axis",
   "main": "index.js",
   "scripts": {
